@@ -1,0 +1,86 @@
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #880e4f;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .brand-logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  #nav-mobile {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-mobile li {
+    margin-left: 10px;
+  }
+  
+  #nav-mobile li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Styling the page heading */
+  h2 {
+    text-align: center;
+    color: #880e4f;
+    margin-top: 40px;
+  }
+  
+  /* Styling the button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #880e4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #c2185b;
+  }
+  
+  /* Additional styles */
+  p {
+    line-height: 1.5;
+  }
+  
+  .container > * {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
